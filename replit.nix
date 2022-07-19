@@ -1,6 +1,7 @@
 { pkgs }: {
   deps = [
     pkgs.python38Full
+    pkgs.python38Packages.matplotlib
     pkgs.python38Packages.pandas
     pkgs.python38Packages.scipy
   ];
